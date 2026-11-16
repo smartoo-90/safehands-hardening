@@ -1,0 +1,17 @@
+18d17
+< cups.path                                      enabled enabled
+24d22
+< avahi-daemon.service                           enabled enabled
+34,35d31
+< cups-browsed.service                           enabled enabled
+< cups.service                                   enabled enabled
+44d39
+< ModemManager.service                           enabled enabled
+79d73
+< avahi-daemon.socket                            enabled enabled
+81d74
+< cups.socket                                    enabled enabled
+115c108
+< 112 unit files listed.
+---
+> 105 unit files listed.

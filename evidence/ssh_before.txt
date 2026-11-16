@@ -1,0 +1,3 @@
+permitrootlogin prohibit-password
+pubkeyauthentication yes
+passwordauthentication yes
