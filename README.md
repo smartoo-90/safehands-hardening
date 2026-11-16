@@ -1,4 +1,4 @@
-﻿# SafeHands Insurance: Linux Jump Server Hardening (Task 1)
+# SafeHands Insurance: Linux Jump Server Hardening (Task 1)
 
 **Intern:** Ijaz Ullah
 **Client:** SafeHands Insurance Brokers
