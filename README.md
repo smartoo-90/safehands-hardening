@@ -51,6 +51,9 @@ Commands: `ufw default deny incoming`, `ufw default allow outgoing`, `ufw allow 
 ![ufw status active](screenshots/ufw_status.png)
 
 ### 7. Remove unnecessary services
+Final ports evidence: `evidence/ports_after.txt` (taken after the services were removed).
+`evidence/ports_mid_after_ufw_before_service_removal.txt` was taken right after enabling UFW and before disabling cups and avahi, so it still lists them.
+Live check: `evidence/cups_check.txt` shows nothing listening on ports 631 or 5353, and the CUPS and avahi units inactive.
 Disabled avahi-daemon, cups, cups-browsed and ModemManager with `systemctl disable --now`.
 
 Listening ports after hardening:
